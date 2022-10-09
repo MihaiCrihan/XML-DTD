@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test1.xsl"?>
+<test>
+    <ex16>
+        <filiala>
+            <denumire>Universitatii</denumire>
+            <value>2178</value>
+         </filiala>
+         <filiala>
+            <denumire>Eroilor</denumire>
+            <value>1445</value>
+         </filiala>
+         <filiala>
+            <denumire>Iulius Mall</denumire>
+            <value>3735</value>
+         </filiala>
+         <filiala>
+            <denumire>Horea</denumire>
+            <value>1425</value>
+         </filiala>
+         <filiala>
+            <denumire>Campus</denumire>
+            <value>0</value>
+         </filiala>
+    </ex16>
+    <ex14>
+        <filiala>
+            <carti>
+                <carte>
+                    <titlu>Sisteme de operare - Linux</titlu>
+                    <pret>50</pret>
+                    <autori>
+                        <autor>autor1 SO</autor>
+                        <autor>autor2 SO</autor>
+                        <autor>autor2 SO</autor>
+                    </autori>
+                    <gen gen="educativ"/>
+                </carte>
+                <carte>
+                    <titlu>Basmele romanilor</titlu>
+                    <pret>20</pret>
+                    <autori>
+                        <autor>P. Ispirescu</autor>
+                    </autori>
+                    <gen gen="basme"/>
+                </carte>
+                <carte>
+                    <titlu>Povesti pentru copii</titlu>
+                    <pret>17</pret>
+                    <autori>
+                        <autor>T. Arghezi</autor>
+                    </autori>
+                    <gen gen="beletristica"/>
+                </carte>
+            </carti>
+        </filiala>
+        <filiala>
+            <carti>
+                <carte>
+                    <titlu>Sisteme de operare - Linux</titlu>
+                    <pret>50</pret>
+                    <autori>
+                        <autor>autor1 SO</autor>
+                        <autor>autor2 SO</autor>
+                        <autor>autor2 SO</autor>
+                    </autori>
+                    <gen gen="educativ"/>
+                </carte>
+            </carti>
+        </filiala>
+        <filiala> 
+            <carti>
+                <carte>
+                    <titlu>Sisteme de operare - Linux</titlu>
+                    <pret>50</pret>
+                    <autori>
+                        <autor>autor1 SO</autor>
+                        <autor>autor2 SO</autor>
+                        <autor>autor2 SO</autor>
+                    </autori>
+                    <gen gen="educativ"/>
+                </carte>
+                <carte>
+                    <titlu>Basmele romanilor</titlu>
+                    <pret>20</pret>
+                    <autori>
+                        <autor>P. Ispirescu</autor>
+                    </autori>
+                    <gen gen="basme"/>
+                </carte>
+            </carti>
+        </filiala>
+        <filiala> 
+            <carti>
+                <carte>
+                    <titlu>Sisteme de operare - Linux</titlu>
+                    <pret>50</pret>
+                    <autori>
+                        <autor>autor1 SO</autor>
+                        <autor>autor2 SO</autor>
+                        <autor>autor2 SO</autor>
+                    </autori>
+                    <gen gen="educativ"/>
+                </carte>
+                <carte>
+                    <titlu>Basmele romanilor</titlu>
+                    <pret>20</pret>
+                    <autori>
+                        <autor>P. Ispirescu</autor>
+                    </autori>
+                    <gen gen="basme"/>
+                </carte>
+            </carti>
+        </filiala>
+        <filiala> 
+            <carti/>
+        </filiala>
+    </ex14>
+    <ex9>
+       <carti>
+            <titlu>Robotii de maine</titlu>
+            <titlu>Poezii</titlu>
+            <titlu>Sisteme de operare - Linux</titlu>
+            <titlu>Basmele romanilor</titlu>
+            <titlu>Colectie poezii</titlu>
+            <titlu>Povesti pentru copii</titlu>
+       </carti>
+    </ex9>
+    <ex6>
+        <filiala>
+            <denumire>Universitatii</denumire>
+            <carti/>
+         </filiala>
+         <filiala>
+            <denumire>Eroilor</denumire>
+            <carti/>
+         </filiala>
+         <filiala>
+            <denumire>Iulius Mall</denumire>
+            <carti>
+				<titlu>Marea mare</titlu>
+			</carti>
+         </filiala>
+         <filiala>
+            <denumire>Horea</denumire>
+            <carti/>
+         </filiala>
+         <filiala>
+            <denumire>Campus</denumire>
+            <carti/>
+         </filiala>
+    </ex6>
+    <ex5>
+    <filiala>
+        <denumire>Universitatii</denumire>
+        <carti>
+            <titlu>Robotii de maine</titlu>
+            <titlu>Poezii</titlu>
+            <titlu>Sisteme de operare - Linux</titlu>
+            <titlu>Basmele romanilor</titlu>
+            <titlu>Colectie poezii</titlu>
+            <titlu>Povesti pentru copii</titlu>
+        </carti>
+        </filiala>
+        <filiala>
+        <denumire>Eroilor</denumire>
+        <carti>
+            <titlu>Robotii de maine</titlu>
+            <titlu>Poezii</titlu>
+            <titlu>Sisteme de operare - Linux</titlu>
+            <titlu>Colectie poezii</titlu>
+        </carti>
+        </filiala>
+        <filiala>
+        <denumire>Iulius Mall</denumire>
+        <carti>
+            <titlu>Sisteme de operare - Linux</titlu>
+            <titlu>Basmele romanilor</titlu>
+            <titlu>Colectie poezii</titlu>
+        </carti>
+        </filiala>
+        <filiala>
+        <denumire>Horea</denumire>
+        <carti>
+            <titlu>Robotii de maine</titlu>
+            <titlu>Sisteme de operare - Linux</titlu>
+            <titlu>Basmele romanilor</titlu>
+            <titlu>Colectie poezii</titlu>
+        </carti>
+        </filiala>
+        <filiala>
+        <denumire>Campus</denumire>
+        <carti/>
+        </filiala>
+    </ex5>
+</test>

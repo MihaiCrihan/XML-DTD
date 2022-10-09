@@ -1,0 +1,112 @@
+<!ELEMENT cv (personal_information, contacts, home_address, professional_experience?, more_details?, education_professional_experience, competence)>
+<!ELEMENT personal_information (cv_language, date_format, person_name, birthdate, gender, citizenships)>
+<!ELEMENT cv_language (#PCDATA)>
+    <!ATTLIST cv_language #REQUIRED>
+<!ELEMENT date_format EMPTY>
+    <!ATTLIST date_format format (dd_mm_yyyy | dd_jun_yy | dd_m_yy) #IMPLIED #REQUIRED>
+<!ELEMENT person_name (name,surname)>
+<!ELEMENT name (#PCDATA)>
+    <!ATTLIST name #REQUIRED>
+<!ELEMENT surname (#PCDATA)>
+    <!ATTLIST surname #REQUIRED>
+<!ELEMENT birthdate (date, month, year)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT gender EMPTY>
+    <!ATTLIST gender sex (male | female) #IMPLIED>
+<!ELEMENT citizenships (citizenship+)>
+<!ELEMENT citizenship (#PCDATA)>
+
+<!ELEMENT contacts (contact+)>
+<!ELEMENT contact (emails, phones)>
+<!ELEMENT emails (email)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phones (phone | home_phone | work_phone)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT home_phone (#PCDATA)>
+<!ELEMENT work_phone (#PCDATA)>
+
+<!ELEMENT home_address (home_addresses+)>
+<!ELEMENT home_addresses (type, address1, address2?, postal_code, town, country)>
+<!ELEMENT type (home_address_type | work_address_type | other)>
+<!ELEMENT home_address_type (#PCDATA)>
+<!ELEMENT work_address_type (#PCDATA)>
+<!ELEMENT other (#PCDATA)>
+<!ELEMENT address1 (#PCDATA)>
+<!ELEMENT address2 (#PCDATA)>
+<!ELEMENT postal_code (#PCDATA)>
+<!ELEMENT town (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+<!ELEMENT professional_experience (function, employee, work_town, work_country, date_from, date_to, activities)>
+<!ELEMENT function (#PCDATA)>
+<!ELEMENT employee (#PCDATA)>
+<!ELEMENT work_town (#PCDATA)>
+<!ELEMENT work_country (#PCDATA)>
+<!ELEMENT date_from (day_from, month_from, year_from)>
+<!ELEMENT day_from (#PCDATA)>
+    <!ATTLIST   day_from
+        min     CDATA   #IMPLIED
+        max     CDATA   #IMPLIED
+        value   CDATA   #IMPLIED
+        >
+<!ELEMENT month_from (#PCDATA)>
+    <!ATTLIST   month_from
+        min     CDATA   #IMPLIED
+        max     CDATA   #IMPLIED
+        value   CDATA   #IMPLIED
+        >
+<!ELEMENT year_from (#PCDATA)>
+<!ELEMENT date_to (day_to, month_to, year_to)>
+<!ELEMENT day_to (#PCDATA)>
+<!ELEMENT month_to (#PCDATA)>
+<!ELEMENT year_to (#PCDATA)>
+<!ELEMENT activities (#PCDATA)>
+
+<!ELEMENT more_details (sector_activity, department?, adres1_line?, adres2_line?, more_postalcode?, more_country?, more_city?, more_email?, site?, site_link?)>
+<!ELEMENT sector_activity EMPTY>
+        <!ATTLIST sector_activity type (agriculture | school | it_specialist) #IMPLIED #REQUIRED>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT adres1_line (#PCDATA)>
+<!ELEMENT adres2_line (#PCDATA)>
+<!ELEMENT more_postalcode (#PCDATA)>
+<!ELEMENT more_country (#PCDATA)>
+<!ELEMENT more_city (#PCDATA)>
+<!ELEMENT more_email (#PCDATA)>
+<!ELEMENT site (#PCDATA)>
+<!ELEMENT site_link (#PCDATA)>
+
+<!ELEMENT education_professional_experience (callification_name, education_adress1, education_adress2, education_postalcode,
+        education_country, education_city, education_date_from, education_date_to)>
+<!ELEMENT callification_name (#PCDATA)>
+<!ELEMENT organization (#PCDATA)>
+<!ELEMENT education_adress1 (#PCDATA)>
+<!ELEMENT education_postalcode (#PCDATA)>
+<!ELEMENT education_city (#PCDATA)>
+<!ELEMENT education_country (#PCDATA)>
+<!ELEMENT education_adress2 (#PCDATA)>
+<!ELEMENT education_date_from (education_day_from, education_month_from, education_year_from)>
+<!ELEMENT education_day_from (#PCDATA)>
+<!ATTLIST   day_from
+        min     CDATA   #IMPLIED
+        max     CDATA   #IMPLIED
+        value   CDATA   #IMPLIED
+        >
+<!ELEMENT education_month_from (#PCDATA)>
+<!ATTLIST   month_from
+        min     CDATA   #IMPLIED
+        max     CDATA   #IMPLIED
+        value   CDATA   #IMPLIED
+        >
+<!ELEMENT education_year_from (#PCDATA)>
+<!ELEMENT education_date_to (education_day_to, education_month_to, education_year_to)>
+<!ELEMENT education_day_to (#PCDATA)>
+<!ELEMENT education_month_to (#PCDATA)>
+<!ELEMENT education_year_to (#PCDATA)>
+
+<!ELEMENT competence (mother_language, other_language, digital_competence)>
+<!ELEMENT mother_language (#PCDATA)>
+<!ELEMENT other_language (#PCDATA)>
+<!ELEMENT digital_competence (#PCDATA)>
+

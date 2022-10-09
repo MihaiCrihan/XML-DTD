@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="001.xsl"?>
+<test>
+    <ex15>
+       <carte gen="SF">
+            <codc>11</codc>
+            <titlu>Robotii de maine</titlu>
+            <autori>
+              <autor>autor1 roboti</autor>
+              <autor>autor2 roboti</autor>
+            </autori>
+            <stocuri>
+              <filiala codf="1" stoc="10"/>
+              <filiala codf="2" stoc="5"/>
+              <filiala codf="4" stoc="15"/>
+            </stocuri>
+            <pret>10</pret>
+          </carte>
+      <carte gen="poezie">
+            <codc>12</codc>
+            <titlu>Poezii</titlu>
+            <autori>
+              <autor>G. Bacovia</autor>
+            </autori>
+            <stocuri>
+              <filiala codf="1" stoc="7"/>
+              <filiala codf="2" stoc="5"/>
+            </stocuri>
+            <pret>14</pret>
+          </carte>
+       <carte gen="educativ">
+            <codc>15</codc>
+            <titlu>Sisteme de operare - Linux</titlu>
+            <autori>
+              <autor>autor1 SO</autor>
+              <autor>autor2 SO</autor>
+              <autor>autor2 SO</autor>
+            </autori>
+            <stocuri>
+              <filiala codf="1" stoc="10"/>
+              <filiala codf="2" stoc="25"/>
+              <filiala codf="3" stoc="50"/>
+              <filiala codf="4" stoc="15"/>
+            </stocuri>
+            <pret>50</pret>
+          </carte>
+    <carte gen="basme">
+            <codc>19</codc>
+            <titlu>Basmele romanilor</titlu>
+            <autori>
+              <autor>P. Ispirescu</autor>
+            </autori>
+            <stocuri>
+              <filiala codf="1" stoc="10"/>
+              <filiala codf="3" stoc="55"/>
+              <filiala codf="4" stoc="15"/>
+            </stocuri>
+            <pret>20</pret>
+          </carte>
+     <carte gen="poezii">
+            <codc>19</codc>
+            <titlu>Colectie poezii</titlu>
+            <autori>
+              <autor>G. Toparceanu</autor>
+              <autor>T. Arghezi</autor>
+            </autori>
+            <stocuri>
+              <filiala codf="1" stoc="40"/>
+              <filiala codf="2" stoc="5"/>
+              <filiala codf="3" stoc="9"/>
+              <filiala codf="4" stoc="15"/>
+            </stocuri>
+            <pret>15</pret>
+          </carte>
+      <carte gen="beletristica">
+            <codc>19</codc>
+            <titlu>Povesti pentru copii</titlu>
+            <autori>
+              <autor>T. Arghezi</autor>
+            </autori>
+            <stocuri>
+              <filiala codf="1" stoc="40"/>
+            </stocuri>
+            <pret>17</pret>
+          </carte>
+    </ex15>
+    <ex13>
+       <carti>
+            <carte> 
+                <filiale>Universitatii</filiale>
+                <numarul>6</numarul>
+                <carti>117</carti>
+            </carte>
+            <carte> 
+                <filiale>Eroilor</filiale>
+                <numarul>4</numarul>
+                <carti>40</carti>
+            </carte>
+            <carte> 
+                <filiale>Iulius Mall</filiale>
+                <numarul>3</numarul>
+                <carti>114</carti>
+            </carte>
+            <carte> 
+                <filiale>Horea</filiale>
+                <numarul>4</numarul>
+                <carti>60</carti>
+            </carte>
+       </carti>
+    </ex13>
+    <ex12>
+        <filiala>
+            <codf>1</codf>
+            <stoc>40</stoc>
+         </filiala>
+         <filiala>
+            <codf>2</codf>
+            <stoc>25</stoc>
+         </filiala>
+         <filiala>
+            <codf>3</codf>
+            <stoc>55</stoc>
+         </filiala>
+         <filiala>
+            <codf>4</codf>
+            <stoc>15</stoc>
+         </filiala>
+         <filiala>
+            <codf>5</codf>
+            <stoc/>
+         </filiala>    
+    </ex12>
+    <ex7>
+        <filiala>
+            <codf>5</codf>
+            <denumire>Campus</denumire>
+          </filiala>
+    </ex7>
+    <ex2>
+        <carti>
+            <titlu>Robotii de maine</titlu>
+            <titlu>Poezii</titlu>
+            <titlu>Sisteme de operare - Linux</titlu>
+            <titlu>Colectie poezii</titlu>
+        </carti>
+    </ex2>
+</test>

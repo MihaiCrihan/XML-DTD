@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!DOCTYPE cv SYSTEM "file.dtd">
+<cv>
+    <personal_information>
+        <cv_language>Romanian</cv_language>
+        <date_format format="dd_mm_yyyy"/>
+        <person_name>
+            <name>Ion</name>
+            <surname>Petricescu</surname>
+        </person_name>
+        <birthdate>
+            <date>23</date>
+            <month>05</month>
+            <year>2943</year>
+        </birthdate>
+        <gender sex="male"/>
+        <citizenships>
+            <citizenship>Moldovan</citizenship>
+        </citizenships>
+    </personal_information>
+    <contacts>
+        <contact>
+            <emails>
+                <email>test@mail.ru</email>
+            </emails>
+            <phones>
+                <home_phone>0231-5-56-66</home_phone>
+            </phones>
+        </contact>
+        <contact>
+            <emails>
+                <email>test22@mail.ru</email>
+            </emails>
+            <phones>
+                <phone>0656985284</phone>
+            </phones>
+        </contact>
+    </contacts>
+    <home_address>
+        <home_addresses>
+            <type>
+                <home_address_type> Ion Creanga 32</home_address_type>
+            </type>
+            <address1>dfdd </address1>
+            <address2>ap 43 adas</address2>
+            <postal_code>0252</postal_code>
+            <town>Balti</town>
+            <country>Balti</country>
+        </home_addresses>
+    </home_address>
+    <professional_experience>
+        <function>profes</function>
+        <employee>Tibirna Vitalik</employee>
+        <work_town>Balti</work_town>
+        <work_country>Balti</work_country>
+        <date_from>
+            <day_from min="1" max="31" value="23">23</day_from>
+            <month_from min="1" max="12">66</month_from>
+            <year_from>2020</year_from>
+        </date_from>
+        <date_to>
+            <day_to>23</day_to>
+            <month_to>12</month_to>
+            <year_to>2024</year_to>
+        </date_to>
+        <activities> fafgafa sgfasdvdsv ds sd  dvsds vsd gds redds</activities>
+    </professional_experience>
+    <more_details>
+    <sector_activity/>
+</more_details>
+    <education_professional_experience>
+        <callification_name>Name</callification_name>
+        <education_adress1>Asas</education_adress1>
+        <education_adress2>sasa</education_adress2>
+        <education_postalcode>6456</education_postalcode>
+        <education_country>Balti</education_country>
+        <education_city>Moldova</education_city>
+        <education_date_from>
+            <education_day_from>19</education_day_from>
+            <education_month_from>6</education_month_from>
+            <education_year_from>1998</education_year_from>
+        </education_date_from>
+        <education_date_to>
+            <education_day_to>23</education_day_to>
+            <education_month_to>2</education_month_to>
+            <education_year_to>2222</education_year_to>
+        </education_date_to>
+    </education_professional_experience>
+    <competence>
+        <mother_language>Romanian</mother_language>
+        <other_language>English</other_language>
+        <digital_competence>none</digital_competence>
+    </competence>
+</cv>
